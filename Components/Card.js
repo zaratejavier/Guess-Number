@@ -3,7 +3,10 @@ import { StyleSheet, View } from "react-native"
 
 const Card = (props) => {
   return (
-    <View style={{ ...styles.card, ...props.style }}>{props.children}</View>
+    <View style={{ ...styles.card, ...props.style }}>
+      {/* will get everything between the card component in startGameScreen */}
+      {props.children} 
+    </View>
   )
 }
 

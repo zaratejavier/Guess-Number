@@ -80,9 +80,6 @@ const StartGameScreen = () => {
           </View>
         </Card>
         {confirmedOutput}
-        {/* <Card>
-          <Text>What the FUUUUUUHHHHH</Text>
-        </Card> */}
       </View>
     </TouchableWithoutFeedback>
   )
